@@ -1,0 +1,26 @@
+
+type Weight @model @key(fields: ["id", "userID"]){
+ id: ID!
+ userID: String!
+ user: User @connection(fields: ["userID"])
+ day: String!
+ weight: Int!
+}
+
+type Meal @model @key(fields: ["id", "userID"]){
+ id: ID!
+ userID: String!
+ user: User @connection(fields: ["userID"])
+ day: String!
+ timing: String!
+ place: String
+ price: Int
+ cal: Int!
+}
+
+type User @model @key(fields: ["id", "username"]){
+ id: String!
+ username: String!
+ star: Int!
+ goal: String
+}

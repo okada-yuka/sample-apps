@@ -1,0 +1,148 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateWeight {
+  onCreateWeight {
+    id
+    userID
+    user {
+      id
+      username
+      star
+      goal
+      createdAt
+      updatedAt
+    }
+    day
+    weight
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateWeight {
+  onUpdateWeight {
+    id
+    userID
+    user {
+      id
+      username
+      star
+      goal
+      createdAt
+      updatedAt
+    }
+    day
+    weight
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteWeight {
+  onDeleteWeight {
+    id
+    userID
+    user {
+      id
+      username
+      star
+      goal
+      createdAt
+      updatedAt
+    }
+    day
+    weight
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateMeal {
+  onCreateMeal {
+    id
+    userID
+    user {
+      id
+      username
+      star
+      goal
+      createdAt
+      updatedAt
+    }
+    day
+    timing
+    place
+    price
+    cal
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateMeal {
+  onUpdateMeal {
+    id
+    userID
+    user {
+      id
+      username
+      star
+      goal
+      createdAt
+      updatedAt
+    }
+    day
+    timing
+    place
+    price
+    cal
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteMeal {
+  onDeleteMeal {
+    id
+    userID
+    user {
+      id
+      username
+      star
+      goal
+      createdAt
+      updatedAt
+    }
+    day
+    timing
+    place
+    price
+    cal
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateUser {
+  onCreateUser {
+    id
+    username
+    star
+    goal
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateUser {
+  onUpdateUser {
+    id
+    username
+    star
+    goal
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteUser {
+  onDeleteUser {
+    id
+    username
+    star
+    goal
+    createdAt
+    updatedAt
+  }
+}

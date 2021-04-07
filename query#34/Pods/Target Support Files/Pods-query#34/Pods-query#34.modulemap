@@ -1,0 +1,6 @@
+framework module Pods_query_34 {
+  umbrella header "Pods-query#34-umbrella.h"
+
+  export *
+  module * { export * }
+}
