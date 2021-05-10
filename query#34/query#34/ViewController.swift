@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         // CreateToDoInput関数：入力パラメータを作成
         
         //let mutationInput = CreateMealInput(userId: "test-id", day: "date", timing: "lunch", cal: 9)
-        let mutationInput = CreateUserInput(id: "test-id-4", username: "test-username-444", star: 1)
+        let mutationInput = CreateUserInput(id: "test-id-5", username: "test-username-5555", star: 1)
         //let mutationInput = CreateWeightInput(userId: <#T##String#>, day: <#T##String#>, weight: <#T##Int#>)
         //userId: String("userID2"), day: String("date"), weight: Int(1))
             //weightId: "test", createdBy: "appDelegate.username", day: "date", weight: 3)
